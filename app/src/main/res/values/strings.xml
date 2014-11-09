@@ -4,5 +4,12 @@
     <string name="app_name">Kina</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <!--<string name="spot_uuid">5FE842B0-FD92-4519-9BC9-A983BC1012BD</string>-->
+    <string name="spot_uuid">AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA</string>
+    <string name="api_endpoint">https://kina.herokuapp.com/api</string>
+    <string name="api_users">:api_end_point/spots/:spot_uuid/users.json</string>
+    <string name="api_stays">:api_end_point/users/:user_name/stays.json</string>
+    <string name="action_reload">Reload</string>
+    <string name="pref_title_user_name">User name</string>
 
 </resources>
