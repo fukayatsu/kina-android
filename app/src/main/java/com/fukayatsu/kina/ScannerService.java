@@ -38,10 +38,10 @@ public class ScannerService extends Service {
 
 
     public ScannerService() {
-        mQueue = VolleyHelper.getRequestQueue(this);
     }
 
     public int onStartCommand(Intent intent, int flags, int startId) {
+        mQueue = VolleyHelper.getRequestQueue(this);
         final BluetoothManager bluetoothManager =
                 (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
         mBluetoothAdapter = bluetoothManager.getAdapter();
